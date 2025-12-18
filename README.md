@@ -1,6 +1,6 @@
 # 📦 Oppermann Worker
 
-This is a utility repo used in the adaptation of a sample Kubernetes docs learning example ([fine parallel processing work queue]). It is used to generate a Docker image that is called in the eventual link repo. 
+This is a utility repo used in the adaptation of a sample Kubernetes docs learning example ([fine parallel processing work queue]). It is used to generate a Docker image that is called in the [blog repo]. 
 
 This worker image retrieves natural numbers from a Redis queue and calculates if they are magic Oppermann numbers. 
 
@@ -36,6 +36,6 @@ podman push <registry>/oppermann-worker
 Please refer to the eventual link repo.
 
 [fine parallel processing work queue]: https://kubernetes.io/docs/tasks/job/fine-parallel-processing-work-queue/
-[ blog repo]: https://github.com/Curiocopia/blog-prime-jobs 
+[blog repo]: https://github.com/Curiocopia/blog-prime-jobs 
 [SageMath]: https://sagemath.org
 [Curiocopia]: https://curiocopia.com
