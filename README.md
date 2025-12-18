@@ -1,6 +1,6 @@
 # 📦 Oppermann Worker
 
-This is a utility repo used in the adaptation of a sample Kubernetes docs learning example ([fine parallel processing work queue]). It is used to generate a Docker image that is called in the eventual link repo. Docker image is called in the Kubernetes Job definition to check if a natural number (magic Oppermann number) $n$ satisfies $\pi(n^2)-\pi(n^2-n) = \pi(n^2+n)-\pi(n^2)$ where $\pi(x)$ is the number of prime numbers smaller than or equal to x. 
+This is a utility repo used in the adaptation of a sample Kubernetes docs learning example ([fine parallel processing work queue]). It is used to generate a Docker image that is called in the eventual link repo. 
 
 This worker image retrieves natural numbers from a Redis queue and calculates if they are magic Oppermann numbers. 
 
@@ -36,5 +36,6 @@ podman push <registry>/oppermann-worker
 Please refer to the eventual link repo.
 
 [fine parallel processing work queue]: https://kubernetes.io/docs/tasks/job/fine-parallel-processing-work-queue/
+[ blog repo]: https://github.com/Curiocopia/blog-prime-jobs 
 [SageMath]: https://sagemath.org
 [Curiocopia]: https://curiocopia.com
